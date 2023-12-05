@@ -1,0 +1,15 @@
+using System;
+using System.Text;
+
+namespace SayiTahmin
+{
+    class Program
+    {
+        static Random rastgele = new Random();
+
+        static void Main(string[] args)
+        {
+            int sayi = rastgele.Next(100);
+        }
+    }
+}
